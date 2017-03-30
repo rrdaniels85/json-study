@@ -50,8 +50,29 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
-```
+{"kitchen": {
+  "cupboard": [
+    {"bowl": "dish"},
+    {"plates": "dish"}
+  "electric stove": [
+    {"element": "small"},
+    {"element": "medium"},
+    {"element": "large"},
+    {"element": "extra large"}]
+  "spice rack" : {
+    "rackOne": [
+      {"spice": "chives"},
+      {"spice": "lemon grass"},
+      {"spice": "mint"}
+    "rackTwo" : [
+      {"spice": "cinnamon"},
+      {"spice": "nutmeg"},
+      {"spice": "vanilla"}]
+    ]
+    }
+    }}
+
+
 
 ## Modeling Data Using JSON: Part II
 
@@ -62,7 +83,31 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{"kitchen": {
+  "cupboard": [
+    {"bowl": "dish"},
+    {"plates": "dish"}
+  "electric stove": [
+    {"element": "small"},
+    {"element": "medium"},
+    {"element": "large"},
+    {"element": "extra large"}]
+  "spice rack" : {
+    "rackOne": [
+      {"spice": "chives"},
+      {"spice": "lemon grass"},
+      {"spice": "mint"}]
+    "rackTwo" : [
+      {"spice": "cinnamon"},
+      {"spice": "nutmeg"},
+      {"spice": "vanilla"}]
+    }
+  "fruitBowl": {
+    {"type": "apple" "name": "Fuji" number": 2}
+    {"type": "apple" "name": "Gala" number": 7}
+    {"type": "apple" "name": "Golden Delicious" number": 1}
+  }
+    }
 ```
 
 ## JSON Methods
@@ -70,7 +115,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No, I believe JSON is only supposed to be a data transfer format. I am not sure that a method would qualify.
 ```
 
 ## JSON Comments
@@ -78,5 +123,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No
 ```
